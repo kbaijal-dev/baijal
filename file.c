@@ -2,7 +2,7 @@
 int main()
 {
     int n, i;
-   int f = 1;
+ long f = 1;
     printf("Enter an integer: ");
     scanf("%d",&n);
 
@@ -14,7 +14,9 @@ int main()
         {
             f=f*i;
         }
-        printf("Factorial of %d = %d", n, f);
+        
     }
+    if(f%2==0)
+        printf("Factorial of %d = %ld and is even", n, f);
     return 0;
 }
