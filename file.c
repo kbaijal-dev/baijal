@@ -2,7 +2,7 @@
 int main()
 {
     int n, i;
-     long f = 1;
+   int f = 1;
     printf("Enter an integer: ");
     scanf("%d",&n);
 
@@ -14,7 +14,7 @@ int main()
         {
             f=f*i;
         }
-        printf("Factorial of %d = %ld", n, f);
+        printf("Factorial of %d = %d", n, f);
     }
     return 0;
 }
