@@ -10,7 +10,7 @@ int main()
         printf("Error! Factorial of a negative number doesn't exist.");
     else
     {
-        for(i=1; i<=n; ++i)
+        for(int i=1; i<=n; ++i)
         {
             f=f*i;
         }
